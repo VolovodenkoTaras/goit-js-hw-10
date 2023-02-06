@@ -3,7 +3,7 @@ const searchParams = new URLSearchParams({
     fields: "name,capital,population,flags,languages",
 });
 
-export function fetchCountries(searchValue) {
+export function fetchCountries(searchValue = "Ukraine") {
     return fetch(
         `${BASE_URL}${searchValue}?${searchParams}`
     )
