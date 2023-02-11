@@ -1,7 +1,7 @@
 const ENDPOINT = `https://newsapi.org/v2/everything`;
 const options = {
   headers: {
-    "X-Api-Key": "dd82ff3604224bf1b224da3ef75c9135",
+    "X-Api-Key": "9699272ded324d29952ed472c40bb7e9",
   },
 };
 
