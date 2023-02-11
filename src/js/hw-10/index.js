@@ -48,7 +48,7 @@
 // Не забывай о том, что fetch не считает 404 ошибкой, поэтому необходимо явно отклонить промис 
 // чтобы можно было словить и обработать ошибку.
 
-import './css/styles.css';
+import '../../css/styles.css';
 import debounce from 'lodash.debounce';
 import { onSearch } from './search';
 
